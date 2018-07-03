@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:mvc="http://www.alibaba.com/schema/stat"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.alibaba.com/schema/stat http://www.alibaba.com/schema/stat.xsd">
+
+    <context:annotation-config />
+    <!--启动注解驱动的Spring MVC 功能,使@Controller等成为被管理的bean-->
+    <mvc:annotation-driven/>
+
+    <!--哪些路径下的注解会被扫描，启动包路径扫描,dao不扫描，因为被mybatis管理-->
+    <context:component-scan base-package="top.kittygirl.controller"/>
+    <context:component-scan base-package="top.kittygirl.service"/>
+
+    <!--当定义一个请求接口时，会使用@RequestMapping-->
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />-->
+    <!--返回数据的类型，试图渲染-->
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>
+
+    <bean id="jsonView" class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value = "/views/" />
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+</beans>
