@@ -1,0 +1,73 @@
+<component name="libraryTable">
+  <library name="Maven: javax.validation:validation-api:1.1.0.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.FINAL/validation-api-1.1.0.FINAL-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

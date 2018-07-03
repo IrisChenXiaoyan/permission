@@ -32,6 +32,14 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:jsp-api:6.0.36" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:el-api:6.0.36" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:servlet-api:6.0.36" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.2.4.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.3" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
