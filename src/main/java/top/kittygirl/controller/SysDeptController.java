@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 import top.kittygirl.common.JsonData;
 import top.kittygirl.dto.DeptLevelDto;
 import top.kittygirl.param.DeptParam;
@@ -21,6 +22,11 @@ public class SysDeptController {
     SysDeptService sysDeptService;
     @Resource
     SysTreeService sysTreeService;
+
+    @RequestMapping("/dept.page")
+    public ModelAndView page() {
+        return new ModelAndView("dept");
+    }
 
     @RequestMapping("/save.json")
     @ResponseBody
