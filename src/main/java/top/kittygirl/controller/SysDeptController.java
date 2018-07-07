@@ -15,7 +15,6 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @Controller
-@Slf4j
 @RequestMapping("/sys/dept")
 public class SysDeptController {
     @Resource

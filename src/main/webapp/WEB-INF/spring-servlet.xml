@@ -11,7 +11,7 @@
     <mvc:interceptors>
         <bean class="top.kittygirl.common.HttpInterceptor"/>
     </mvc:interceptors>
-
+    <mvc:default-servlet-handler/>
     <!--哪些路径下的注解会被扫描，启动包路径扫描,dao不扫描，因为被mybatis管理-->
     <context:component-scan base-package="top.kittygirl.controller"/>
     <context:component-scan base-package="top.kittygirl.service"/>
