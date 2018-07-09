@@ -1,6 +1,10 @@
 package top.kittygirl.dao;
 
+import org.apache.ibatis.annotations.Param;
 import top.kittygirl.model.SysAclModule;
+
+import java.util.List;
+
 
 public interface SysAclModuleMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,4 +18,12 @@ public interface SysAclModuleMapper {
     int updateByPrimaryKeySelective(SysAclModule record);
 
     int updateByPrimaryKey(SysAclModule record);
+
+    int countByNameAndParentId(@Param("parentId") Integer parentId, @Param("name") String name, @Param("id") Integer id);
+
+    List<SysAclModule> getChildAclModuleListByLevel(@Param("level") String level);
+
+    void batchUpdateLevel(@Param("sysAclModuleList") List<SysAclModule> sysAclModuleList);
+
+    List<SysAclModule> getAllAclModule();
 }
