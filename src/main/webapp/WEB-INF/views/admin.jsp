@@ -1,5 +1,5 @@
-<%--<%@ page import="top.kittygirl.common.RequestHolder" %>--%>
-<%--<%@ page import="top.kittygirl.model.SysUser" %>--%>
+<%@ page import="top.kittygirl.common.RequestHolder" %>
+<%@ page import="top.kittygirl.model.SysUser" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,8 +26,7 @@
             </a>
         </div>
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
-            <ul class="nav ace-nav">
-                <li class="light-blue dropdown-modal">
+            <ul class="nav ace-nav">                <li class="light-blue dropdown-modal">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
                         <span class="user-info">
                             <small>欢迎,</small>

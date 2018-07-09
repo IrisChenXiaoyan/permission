@@ -4,11 +4,13 @@ import com.google.common.base.Preconditions;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import top.kittygirl.common.RequestHolder;
 import top.kittygirl.dao.SysDeptMapper;
 import top.kittygirl.exception.ParamException;
 import top.kittygirl.model.SysDept;
 import top.kittygirl.param.DeptParam;
 import top.kittygirl.util.BeanValidator;
+import top.kittygirl.util.IpUtil;
 import top.kittygirl.util.LevelUtil;
 
 import javax.annotation.Resource;
@@ -30,8 +32,8 @@ public class SysDeptService {
                 .parentId(param.getParentId()).seq(param.getSeq()).remark(param.getRemark()).build();
 
         dept.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()), param.getParentId()));
-        dept.setOperator("system");//TODO:
-        dept.setOperateIp("127.0.0.1");//TODO:
+        dept.setOperator(RequestHolder.getCurrentUser().getUsername());
+        dept.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         dept.setOperateTime(new Date());
 
         sysDeptMapper.insertSelective(dept);
@@ -48,8 +50,8 @@ public class SysDeptService {
         SysDept after = SysDept.builder().id(param.getId()).name(param.getName())
                 .parentId(param.getParentId()).seq(param.getSeq()).remark(param.getRemark()).build();
         after.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()), param.getParentId()));
-        after.setOperator("system");//TODO:
-        after.setOperateIp("127.0.0.1");//TODO:
+        after.setOperator(RequestHolder.getCurrentUser().getUsername());
+        after.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         after.setOperateTime(new Date());
 
         updateWithChild(before, after);
