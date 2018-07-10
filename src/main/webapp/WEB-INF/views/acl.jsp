@@ -146,7 +146,7 @@
             </tr>
             <tr>
                 <td><label for="aclUrl">URL</label></td>
-                <td><input type="text" name="url" id="aclUrl" value="1" class="text ui-widget-content ui-corner-all"></td>
+                <td><input type="text" name="url" id="aclUrl" class="text ui-widget-content ui-corner-all"></td>
             </tr>
             <tr>
                 <td><label for="aclStatus">状态</label></td>
@@ -159,7 +159,7 @@
             </tr>
             <tr>
                 <td><label for="aclSeq">顺序</label></td>
-                <td><input type="text" name="seq" id="aclSeq" value="" class="text ui-widget-content ui-corner-all"></td>
+                <td><input type="text" name="seq"  value="1" id="aclSeq" value="" class="text ui-widget-content ui-corner-all"></td>
             </tr>
             <tr>
                 <td><label for="aclRemark">备注</label></td>
