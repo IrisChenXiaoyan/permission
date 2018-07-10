@@ -1,6 +1,9 @@
 package top.kittygirl.dao;
 
+import org.apache.ibatis.annotations.Param;
 import top.kittygirl.model.SysRole;
+
+import java.util.List;
 
 public interface SysRoleMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,4 +17,8 @@ public interface SysRoleMapper {
     int updateByPrimaryKeySelective(SysRole record);
 
     int updateByPrimaryKey(SysRole record);
+
+    List<SysRole> getAll();
+
+    int countByName(@Param("name") String name, @Param("id") Integer id);
 }

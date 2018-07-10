@@ -57,7 +57,9 @@ public class SysAclModuleService {
         String newLevelPrefix = after.getLevel();
         String oldLevelPrefix = before.getLevel();
         if (!newLevelPrefix.equals(oldLevelPrefix)) {
-            List<SysAclModule> aclModuleList = sysAclModuleMapper.getChildAclModuleListByLevel(before.getLevel());
+            //注意：这里要查找更改的结点的孩子，需要更改前的level加上更改结点的ID才是孩子的level
+            List<SysAclModule> aclModuleList = sysAclModuleMapper
+                    .getChildAclModuleListByLevel(before.getLevel()+before.getId());
             if (CollectionUtils.isNotEmpty(aclModuleList)) {
                 for (SysAclModule aclModule : aclModuleList) {
                     String level = aclModule.getLevel();

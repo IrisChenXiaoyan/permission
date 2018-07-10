@@ -21,7 +21,7 @@
         <property name="minIdle" value="3"/>
         <property name="maxActive" value="20"/>
         <property name="maxWait" value="60000"/>
-        <property name="filters" value="stat,wall"/>
+        <!--<property name="filters" value="stat,wall"/>-->
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -42,17 +42,17 @@
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
     <!--druid-->
-    <bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
-        <property name="slowSqlMillis" value="3000"/>
-        <property name="logSlowSql" value="true"/>
-        <property name="mergeSql" value="true"/>
-    </bean>
+    <!--<bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">-->
+        <!--<property name="slowSqlMillis" value="3000"/>-->
+        <!--<property name="logSlowSql" value="true"/>-->
+        <!--<property name="mergeSql" value="true"/>-->
+    <!--</bean>-->
 
-    <bean id="wall-filter" class="com.alibaba.druid.wall.WallFilter">
-        <property name="dbType" value="mysql"/>
-        <property name="config" ref="wall-config" />
-    </bean>
-    <bean id="wall-config" class="com.alibaba.druid.wall.WallConfig">
-        <property name="multiStatementAllow" value="true" />
-    </bean>
+    <!--<bean id="wall-filter" class="com.alibaba.druid.wall.WallFilter">-->
+        <!--<property name="dbType" value="mysql"/>-->
+        <!--<property name="config" ref="wall-config" />-->
+    <!--</bean>-->
+    <!--<bean id="wall-config" class="com.alibaba.druid.wall.WallConfig">-->
+        <!--<property name="multiStatementAllow" value="true" />-->
+    <!--</bean>-->
 </beans>
