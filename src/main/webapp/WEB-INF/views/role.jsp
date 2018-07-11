@@ -371,7 +371,7 @@
         $(".saveRoleAcl").click(function (e) {
             e.preventDefault();
             if (lastRoleId == -1) {
-                showMessage("保存角色与权限点的关系", "请现在左侧选择需要操作的角色", false);
+                showMessage("保存角色与权限点的关系", "请先在左侧选择需要操作的角色", false);
                 return;
             }
             $.ajax({
