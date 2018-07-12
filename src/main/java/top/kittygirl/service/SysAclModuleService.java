@@ -5,6 +5,7 @@ import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import top.kittygirl.common.RequestHolder;
+import top.kittygirl.dao.SysAclMapper;
 import top.kittygirl.dao.SysAclModuleMapper;
 import top.kittygirl.exception.ParamException;
 import top.kittygirl.model.SysAclModule;
@@ -21,6 +22,8 @@ import java.util.List;
 public class SysAclModuleService {
     @Resource
     private SysAclModuleMapper sysAclModuleMapper;
+    @Resource
+    private SysAclMapper sysAclMapper;
 
     public void save(AclModuleParam param) {
         BeanValidator.check(param);
@@ -86,5 +89,15 @@ public class SysAclModuleService {
             return null;
         }
         return aclModule.getLevel();
+    }
+
+    public void delete(int aclModuleId) {
+        SysAclModule aclModule = sysAclModuleMapper.selectByPrimaryKey(aclModuleId);
+        Preconditions.checkNotNull(aclModule, "待删除的权限模块不存在，无法删除");
+        if (sysAclModuleMapper.countByParentId(aclModuleId) > 0)
+            throw new ParamException("当前权限模块下面有子模块，无法删除");
+        if (sysAclMapper.countByAclModuleId(aclModuleId) > 0)
+            throw new ParamException("当前部门下面有用户，无法删除");
+        sysAclModuleMapper.deleteByPrimaryKey(aclModuleId);
     }
 }

@@ -31,6 +31,17 @@ public class SysTreeService {
     @Resource
     SysAclMapper sysAclMapper;
 
+    public List<AclModuleLevelDto> userAclTree(int userId) {
+        List<SysAcl> userAclList = sysCoreService.getUserAclList(userId);
+        List<AclDto> aclDtoList = Lists.newArrayList();
+        for (SysAcl acl : userAclList) {
+            AclDto dto = AclDto.adapt(acl);
+            dto.setHasAcl(true);
+            dto.setChecked(true);
+            aclDtoList.add(dto);
+        }
+        return aclListToTree(aclDtoList);
+    }
 
     public List<AclModuleLevelDto> roleTree(int roleId) {
         //1、当前用户已分配权限点
@@ -64,7 +75,7 @@ public class SysTreeService {
         Multimap<Integer, AclDto> moduleIdAclMap = ArrayListMultimap.create();
 
 
-        for (AclDto acl :aclDtoList) {
+        for (AclDto acl : aclDtoList) {
             if (acl.getStatus() == 1) {
                 moduleIdAclMap.put(acl.getAclModuleId(), acl);
             }
@@ -78,7 +89,7 @@ public class SysTreeService {
         if (CollectionUtils.isEmpty(aclModuleLevelList))
             return;
         for (AclModuleLevelDto dto : aclModuleLevelList) {
-            List<AclDto> aclDtoList = (List<AclDto>)moduleIdAclMap.get(dto.getId());
+            List<AclDto> aclDtoList = (List<AclDto>) moduleIdAclMap.get(dto.getId());
             if (CollectionUtils.isNotEmpty(aclDtoList)) {
                 Collections.sort(aclDtoList, aclSeqComparator);
                 dto.setAclList(aclDtoList);
@@ -103,7 +114,7 @@ public class SysTreeService {
         Multimap<String, AclModuleLevelDto> levelAclModuleMap = ArrayListMultimap.create();
         List<AclModuleLevelDto> rootList = Lists.newArrayList();
         for (AclModuleLevelDto dto : dtoList) {
-            levelAclModuleMap.put(dto.getLevel(),dto);
+            levelAclModuleMap.put(dto.getLevel(), dto);
             if (LevelUtil.ROOT.equals(dto.getLevel()))
                 rootList.add(dto);
         }
@@ -116,7 +127,7 @@ public class SysTreeService {
         for (int i = 0; i < curLevelList.size(); i++) {
             AclModuleLevelDto aclModuleLevelDto = curLevelList.get(i);
             String nextLevel = LevelUtil.calculateLevel(level, aclModuleLevelDto.getId());
-            List<AclModuleLevelDto> nextLevelList = (List<AclModuleLevelDto>)levelAclModuleMap.get(nextLevel);
+            List<AclModuleLevelDto> nextLevelList = (List<AclModuleLevelDto>) levelAclModuleMap.get(nextLevel);
             if (CollectionUtils.isNotEmpty(nextLevelList)) {
                 Collections.sort(nextLevelList, aclModuleSeqComparator);
                 aclModuleLevelDto.setAclModuleList(nextLevelList);
@@ -158,7 +169,7 @@ public class SysTreeService {
         for (int i = 0; i < curLevelList.size(); i++) {
             DeptLevelDto deptLevelDto = curLevelList.get(i);
             String nextLevel = LevelUtil.calculateLevel(level, deptLevelDto.getId());
-            List<DeptLevelDto> nextLevelList = (List<DeptLevelDto>)levelDeptmap.get(nextLevel);
+            List<DeptLevelDto> nextLevelList = (List<DeptLevelDto>) levelDeptmap.get(nextLevel);
             if (CollectionUtils.isNotEmpty(nextLevelList)) {
                 Collections.sort(nextLevelList, deptSeqComparator);
                 deptLevelDto.setDeptList(nextLevelList);

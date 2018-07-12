@@ -7,17 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95a052f8-c4aa-470b-98ac-9fa45894657c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysRoleController.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysRoleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysDeptController.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysDeptController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysUserController.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysUserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysDeptMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysDeptMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysUserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleAcl.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleAcl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleUser.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysUserService.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java" afterPath="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,26 +49,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysRoleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysRoleController.java">
+      <file leaf-file-name="SysAclController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="56" column="70" lean-forward="false" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRoleUserService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleUserService.java">
+      <file leaf-file-name="SysRoleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="433">
+              <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,9 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/common/RequestHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/common/HttpInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/util/IpUtil.java" />
@@ -99,29 +100,18 @@
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/util/MailUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/param/AclModuleParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysAclModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/settings.properties" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/param/AclParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/acl.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/param/RoleParam.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRole.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dto/AclDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dto/AclModuleLevelDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysCoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysAcl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SysAclMapper.xml" />
@@ -129,16 +119,30 @@
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleAcl.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleAclService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysRoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/model/SysRoleUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysDeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java" />
       </list>
     </option>
   </component>
@@ -192,7 +196,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,70 +240,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kittygirl" type="462c0819:PsiDirectoryNode" />
-              <item name="param" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="permission" type="b2602c69:ProjectViewProjectNode" />
@@ -312,23 +256,29 @@
               <item name="permission" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="permission" type="b2602c69:ProjectViewProjectNode" />
               <item name="permission" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,7 +288,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="SysRoleAcl&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleAclMapper.xml&#10;SysRoleUser&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleUserMapper.xml&#10;SysRole&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysRoleAclService.java&#10;SysUserMap&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysUserMapper.xml&#10;SysRol&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java&#10;SysUserMa&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysUserMapper.xml&#10;SysUserSer&#9;PSI&#9;JAVA://top.kittygirl.service.SysUserService&#10;SysRoleUserMa&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleUserMapper.xml&#10;Acl&#9;PSI&#9;JAVA://top.kittygirl.dto.AclModuleLevelDto&#10;SysAcl&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysAclMapper.xml&#10;SysAclMa&#9;PSI&#9;JAVA://top.kittygirl.dao.SysAclMapper&#10;AclP&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/param/AclParam.java&#10;Sys&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/model/SysAcl.java&#10;wallCo&#9;PSI&#9;JAVA://com.alibaba.druid.wall.WallConfig&#10;SysDeptMa&#9;PSI&#9;JAVA://top.kittygirl.dao.SysDeptMapper&#10;SysDeptSer&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;SysAclMo&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysAclModuleMapper.xml&#10;sysDept&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysDeptMapper.xml&#10;sysDe&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;sys&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysUserService.java&#10;SysDe&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;web&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/webapp/WEB-INF/web.xml&#10;loadUser&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="SysRoleUserMapper&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleUserMapper.xml&#10;SysRoleU&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java&#10;SysRoleAcl&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleAclMapper.xml&#10;Sys&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysRoleService.java&#10;SysRoleMapper.x&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleMapper.xml&#10;SysRoleMap&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysRoleMapper.java&#10;SysRoleSer&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysRoleService.java&#10;SysTre&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysTreeService.java&#10;SysAclMod&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysAclModuleMapper.xml&#10;SysDept&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysDeptMapper.xml&#10;SysAcl&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/controller/SysAclModuleController.java&#10;SysAclMo&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysAclModuleService.java&#10;SysAclModule&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java&#10;SysUserMap&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysUserMapper.java&#10;SysRoleUser&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleUserMapper.xml&#10;SysRole&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysRoleAclService.java&#10;SysRol&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java&#10;SysUserMa&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysUserMapper.xml&#10;SysUserSer&#9;PSI&#9;JAVA://top.kittygirl.service.SysUserService&#10;SysRoleUserMa&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysRoleUserMapper.xml&#10;Acl&#9;PSI&#9;JAVA://top.kittygirl.dto.AclModuleLevelDto&#10;SysAclMa&#9;PSI&#9;JAVA://top.kittygirl.dao.SysAclMapper&#10;AclP&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/param/AclParam.java&#10;wallCo&#9;PSI&#9;JAVA://com.alibaba.druid.wall.WallConfig&#10;SysDeptMa&#9;PSI&#9;JAVA://top.kittygirl.dao.SysDeptMapper&#10;SysDeptSer&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;sysDept&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/resources/mapper/SysDeptMapper.xml&#10;sysDe&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;sys&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysUserService.java&#10;SysDe&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/java/top/kittygirl/service/SysDeptService.java&#10;web&#9;FILE&#9;file://C:/Users/dell-pc/IdeaProjects/permission/src/main/webapp/WEB-INF/web.xml&#10;loadUser&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -583,12 +533,14 @@
       <workItem from="1531133625223" duration="7000" />
       <workItem from="1531182272137" duration="8829000" />
       <workItem from="1531198894166" duration="7119000" />
-      <workItem from="1531268522331" duration="21619000" />
+      <workItem from="1531268522331" duration="21716000" />
+      <workItem from="1531308033141" duration="156000" />
+      <workItem from="1531355060432" duration="8566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157457000" />
+    <option name="totallyTimeSpent" value="166276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,14 +558,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47269624" sideWeight="0.3698941" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.49092284" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883959" sideWeight="0.6301059" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4795222" sideWeight="0.6301059" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32423207" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -624,8 +576,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32423207" sideWeight="0.48940998" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23071104" sideWeight="0.48867315" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.48867315" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22768533" sideWeight="0.51132685" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -720,61 +672,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/wall/WallConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/TestController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/TestDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/param/TestVo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="89" lean-forward="false" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/acl.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3542">
-          <caret line="161" column="61" lean-forward="false" selection-start-line="161" selection-start-column="61" selection-end-line="161" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/settings.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -786,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,11 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="37" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3035#3043#0" expanded="false" />
-            <element signature="e#3125#3133#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,43 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="151" column="29" lean-forward="false" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
-          <folding>
-            <marker date="1531202611544" expanded="true" signature="1124:1228" ph="select from sys_dept" />
-            <marker date="1531202611544" expanded="true" signature="1315:1373" ph="delete from " />
-            <marker date="1531202611544" expanded="true" signature="1458:1866" ph="insert into sys_dept... " />
-            <marker date="1531202611544" expanded="true" signature="3534:4360" ph="update sys_d... " />
-            <marker date="1531202611544" expanded="true" signature="4457:4872" ph="update sys_d... " />
-            <marker date="1531202611544" expanded="true" signature="4943:5007" ph="select from sys_dept" />
-            <marker date="1531202611544" expanded="true" signature="5091:5185" ph="select from sys_dept" />
-            <marker date="1531202611544" expanded="true" signature="5326:5407" ph="UPDATE sys_d... " />
-            <marker date="1531202611544" expanded="true" signature="5516:5606" ph="SELECT count... sys_dept" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysDeptMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,86 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="156" column="29" lean-forward="true" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
-          <folding>
-            <marker date="1531203204992" expanded="true" signature="1210:1320" ph="select from sys_acl_module" />
-            <marker date="1531203204992" expanded="true" signature="1407:1471" ph="delete from " />
-            <marker date="1531203204992" expanded="true" signature="1561:2011" ph="insert into sys_acl_module... " />
-            <marker date="1531203204992" expanded="true" signature="3839:4762" ph="update sys_a... " />
-            <marker date="1531203204992" expanded="true" signature="4864:5328" ph="update sys_a... " />
-            <marker date="1531203204992" expanded="true" signature="5417:5517" ph="select from sys_acl_module" />
-            <marker date="1531203204992" expanded="true" signature="5668:5765" ph="UPDATE sys_a... " />
-            <marker date="1531203204992" expanded="true" signature="6105:6175" ph="select from sys_acl_module" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="61" column="84" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="61" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3058">
-          <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
-          <folding>
-            <marker date="1531204331798" expanded="true" signature="1046:1150" ph="select from sys_role" />
-            <marker date="1531204331798" expanded="true" signature="1237:1295" ph="delete from " />
-            <marker date="1531204331798" expanded="true" signature="1380:1737" ph="insert into sys_role... " />
-            <marker date="1531204331798" expanded="true" signature="3260:3994" ph="update sys_r... " />
-            <marker date="1531204331798" expanded="true" signature="4091:4462" ph="update sys_r... " />
-            <marker date="1531204331798" expanded="true" signature="4529:4594" ph="SELECT from sys_role" />
-            <marker date="1531204331798" expanded="true" signature="4677:4735" ph="SELECT count... sys_role" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="53" column="54" lean-forward="false" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1967#1968#0" expanded="false" />
-            <element signature="e#2012#2013#0" expanded="false" />
-            <element signature="e#2071#2072#0" expanded="false" />
-            <element signature="e#2133#2134#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dto/AclDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,26 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-          <folding>
-            <element signature="method#aclModuleTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="method#aclModuleListToTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="method#transformAclModuleTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="method#deptTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="method#deptListToTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="method#transformDeptTree#0;class#SysTreeService#0" expanded="false" />
-            <element signature="e#7015#7016#0" expanded="true" />
-            <element signature="e#7071#7072#0" expanded="true" />
-            <element signature="e#7483#7484#0" expanded="true" />
-            <element signature="e#7539#7540#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,10 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#946#955#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,20 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="202" column="47" lean-forward="false" selection-start-line="202" selection-start-column="47" selection-end-line="202" selection-end-column="47" />
-          <folding>
-            <marker date="1531278404425" expanded="true" signature="1348:1451" ph="select from sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="1538:1595" ph="delete from " />
-            <marker date="1531278404425" expanded="true" signature="1679:2203" ph="insert into sys_acl... " />
-            <marker date="1531278404425" expanded="true" signature="4289:5379" ph="update sys_a... " />
-            <marker date="1531278404425" expanded="true" signature="5475:6013" ph="update sys_a... " />
-            <marker date="1531278404425" expanded="true" signature="6112:6214" ph="SELECT count... sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6371:6448" ph="SELECT count... sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6551:6656" ph="SELECT count... sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6551:6734" ph="SELECT FROM sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6801:6861" ph="SELECT FROM sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6955:7031" ph="SELECT FROM sys_acl" />
-            <marker date="1531278404425" expanded="true" signature="6955:7124" ph="SELECT FROM sys_acl" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,19 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="451" column="0" lean-forward="true" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,27 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
-          <folding>
-            <marker date="1531292867045" expanded="true" signature="1308:1412" ph="select from sys_user" />
-            <marker date="1531292867045" expanded="true" signature="1499:1557" ph="delete from " />
-            <marker date="1531292867045" expanded="true" signature="1642:2140" ph="insert into sys_user... " />
-            <marker date="1531292867045" expanded="true" signature="4132:5167" ph="update sys_u... " />
-            <marker date="1531292867045" expanded="true" signature="5264:5783" ph="update sys_u... " />
-            <marker date="1531292867045" expanded="true" signature="5880:6003" ph="SELECT FROM sys_user" />
-            <marker date="1531292867045" expanded="true" signature="6086:6144" ph="SELECT count... sys_user" />
-            <marker date="1531292867045" expanded="true" signature="6507:6570" ph="SELECT count... sys_user" />
-            <marker date="1531292867045" expanded="true" signature="6666:6826" ph="SELECT FROM sys_user" />
-            <marker date="1531292867045" expanded="true" signature="6918:6995" ph="SELECT FROM sys_user" />
-            <marker date="1531292867045" expanded="true" signature="7172:7233" ph="SELECT FROM sys_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,12 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="73" column="34" lean-forward="true" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-          <folding>
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3264#3265#0" expanded="true" />
-            <element signature="e#3726#3727#0" expanded="true" />
-            <element signature="e#3771#3772#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,7 +838,7 @@
         <state relative-caret-position="132">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,60 +847,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="129" column="11" lean-forward="true" selection-start-line="115" selection-start-column="2" selection-end-line="129" selection-end-column="11" />
-          <folding>
-            <marker date="1531289301713" expanded="true" signature="913:1021" ph="select from sys_role_acl" />
-            <marker date="1531289301713" expanded="true" signature="1108:1170" ph="delete from " />
-            <marker date="1531289301713" expanded="true" signature="1258:1555" ph="insert into sys_role_acl... " />
-            <marker date="1531289301713" expanded="true" signature="2814:3381" ph="update sys_r... " />
-            <marker date="1531289301713" expanded="true" signature="3481:3778" ph="update sys_r... " />
-            <marker date="1531289301713" expanded="true" signature="3876:3921" ph="SELECT acl_i... sys_role_acl" />
-            <marker date="1531289301713" expanded="true" signature="4123:4181" ph="DELETE FROM " />
-            <marker date="1531289301713" expanded="true" signature="4247:4537" ph="insert into sys_role_acl... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="129" column="103" lean-forward="false" selection-start-line="129" selection-start-column="103" selection-end-line="129" selection-end-column="103" />
-          <folding>
-            <marker date="1531297229949" expanded="true" signature="918:1027" ph="select from sys_role_user" />
-            <marker date="1531297229949" expanded="true" signature="1114:1177" ph="delete from " />
-            <marker date="1531297229949" expanded="true" signature="1266:1566" ph="insert into sys_role_user... " />
-            <marker date="1531297229949" expanded="true" signature="2832:3403" ph="update sys_r... " />
-            <marker date="1531297229949" expanded="true" signature="3504:3804" ph="update sys_r... " />
-            <marker date="1531297229949" expanded="true" signature="3897:3964" ph="SELECT role_... sys_role_user" />
-            <marker date="1531297229949" expanded="true" signature="4057:4124" ph="SELECT user_... sys_role_user" />
-            <marker date="1531297229949" expanded="true" signature="4193:4252" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1219,11 +862,225 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
+        <state relative-caret-position="336">
           <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysAclModuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="98" column="61" lean-forward="true" selection-start-line="98" selection-start-column="61" selection-end-line="98" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="175" column="30" lean-forward="false" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
+          <folding>
+            <marker date="1531357520265" expanded="true" signature="1124:1228" ph="select from sys_dept" />
+            <marker date="1531357520265" expanded="true" signature="1315:1373" ph="delete from " />
+            <marker date="1531357520265" expanded="true" signature="1458:1866" ph="insert into sys_dept... " />
+            <marker date="1531357520265" expanded="true" signature="3534:4360" ph="update sys_d... " />
+            <marker date="1531357520265" expanded="true" signature="4457:4872" ph="update sys_d... " />
+            <marker date="1531357520265" expanded="true" signature="4943:5007" ph="select from sys_dept" />
+            <marker date="1531357520265" expanded="true" signature="5091:5185" ph="select from sys_dept" />
+            <marker date="1531357520265" expanded="true" signature="5326:5407" ph="UPDATE sys_d... " />
+            <marker date="1531357520265" expanded="true" signature="5752:5817" ph="SELECT count... sys_dept" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysDeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+          <folding>
+            <marker date="1531357520423" expanded="true" signature="1210:1320" ph="select from sys_acl_module" />
+            <marker date="1531357520423" expanded="true" signature="1407:1471" ph="delete from " />
+            <marker date="1531357520423" expanded="true" signature="1561:2011" ph="insert into sys_acl_module... " />
+            <marker date="1531357520423" expanded="true" signature="3839:4762" ph="update sys_a... " />
+            <marker date="1531357520423" expanded="true" signature="4864:5328" ph="update sys_a... " />
+            <marker date="1531357520423" expanded="true" signature="5417:5517" ph="select from sys_acl_module" />
+            <marker date="1531357520423" expanded="true" signature="5668:5765" ph="UPDATE sys_a... " />
+            <marker date="1531357520423" expanded="true" signature="6105:6175" ph="select from sys_acl_module" />
+            <marker date="1531357520423" expanded="true" signature="6262:6338" ph="SELECT count... sys_acl_module" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysAclModuleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclModuleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3197">
+          <caret line="258" column="26" lean-forward="true" selection-start-line="258" selection-start-column="26" selection-end-line="258" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/acl.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7926">
+          <caret line="161" column="61" lean-forward="false" selection-start-line="161" selection-start-column="61" selection-end-line="161" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="148" column="41" lean-forward="false" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+          <folding>
+            <marker date="1531361194543" expanded="true" signature="1046:1150" ph="select from sys_role" />
+            <marker date="1531361194543" expanded="true" signature="1237:1295" ph="delete from " />
+            <marker date="1531361194543" expanded="true" signature="1380:1737" ph="insert into sys_role... " />
+            <marker date="1531361194543" expanded="true" signature="3260:3994" ph="update sys_r... " />
+            <marker date="1531361194543" expanded="true" signature="4091:4462" ph="update sys_r... " />
+            <marker date="1531361194543" expanded="true" signature="4529:4594" ph="SELECT from sys_role" />
+            <marker date="1531361194543" expanded="true" signature="4886:4967" ph="SELECT from sys_role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysTreeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="134" column="26" lean-forward="false" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+          <folding>
+            <marker date="1531361912061" expanded="true" signature="913:1021" ph="select from sys_role_acl" />
+            <marker date="1531361912061" expanded="true" signature="1108:1170" ph="delete from " />
+            <marker date="1531361912061" expanded="true" signature="1258:1555" ph="insert into sys_role_acl... " />
+            <marker date="1531361912061" expanded="true" signature="2814:3381" ph="update sys_r... " />
+            <marker date="1531361912061" expanded="true" signature="3481:3778" ph="update sys_r... " />
+            <marker date="1531361912061" expanded="true" signature="4123:4181" ph="DELETE FROM " />
+            <marker date="1531361912061" expanded="true" signature="4629:4693" ph="SELECT role_... sys_role_acl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="139" column="14" lean-forward="false" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+          <folding>
+            <marker date="1531362638188" expanded="true" signature="918:1027" ph="select from sys_role_user" />
+            <marker date="1531362638188" expanded="true" signature="1114:1177" ph="delete from " />
+            <marker date="1531362638188" expanded="true" signature="1266:1566" ph="insert into sys_role_user... " />
+            <marker date="1531362638188" expanded="true" signature="2832:3403" ph="update sys_r... " />
+            <marker date="1531362638188" expanded="true" signature="3504:3804" ph="update sys_r... " />
+            <marker date="1531362638188" expanded="true" signature="3897:3964" ph="SELECT role_... sys_role_user" />
+            <marker date="1531362638188" expanded="true" signature="4057:4124" ph="SELECT user_... sys_role_user" />
+            <marker date="1531362638188" expanded="true" signature="4193:4252" ph="DELETE FROM " />
+            <marker date="1531362638188" expanded="true" signature="4714:4772" ph="SELECT user_... sys_role_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/dao/SysRoleUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/kittygirl/controller/SysAclController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="56" column="70" lean-forward="false" selection-start-line="56" selection-start-column="70" selection-end-line="56" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
