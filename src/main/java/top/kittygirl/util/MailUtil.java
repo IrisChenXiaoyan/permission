@@ -11,11 +11,11 @@ public class MailUtil {
 
     public static boolean send(Mail mail) {
 
-        String from = "15529017950@163.com";
+        String from = "";
         int port = 25;
-        String host = "smtp.163.com";
-        String pass = "241652u66Jhh";
-        String nickname = "Admin";
+        String host = "";
+        String pass = "";
+        String nickname = "";
 
         HtmlEmail email = new HtmlEmail();
         try {

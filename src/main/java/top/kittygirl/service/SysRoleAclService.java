@@ -5,10 +5,14 @@ import com.google.common.collect.Sets;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import top.kittygirl.beans.LogType;
 import top.kittygirl.common.RequestHolder;
+import top.kittygirl.dao.SysLogMapper;
 import top.kittygirl.dao.SysRoleAclMapper;
+import top.kittygirl.model.SysLogWithBLOBs;
 import top.kittygirl.model.SysRoleAcl;
 import top.kittygirl.util.IpUtil;
+import top.kittygirl.util.JsonMapper;
 
 import javax.annotation.Resource;
 import java.util.Collections;
@@ -20,6 +24,8 @@ import java.util.Set;
 public class SysRoleAclService {
     @Resource
     private SysRoleAclMapper sysRoleAclMapper;
+    @Resource
+    private SysLogMapper sysLogMapper;
 
     public void changeRoleAcls(Integer roleId, List<Integer> aclIdList) {
         List<Integer> originAclIdList = sysRoleAclMapper.getAclIdListByRoleIdList(Lists.newArrayList(roleId));
@@ -31,6 +37,7 @@ public class SysRoleAclService {
                 return;
         }
         updateRoleAcls(roleId, aclIdList);
+        saveRoleAclLog(roleId, originAclIdList, aclIdList);
     }
 
     @Transactional
@@ -47,5 +54,17 @@ public class SysRoleAclService {
             roleAclList.add(roleAcl);
         }
         sysRoleAclMapper.batchInsert(roleAclList);
+    }
+    private void saveRoleAclLog(int roleId, List<Integer> before, List<Integer> after) {
+        SysLogWithBLOBs sysLog = new SysLogWithBLOBs();
+        sysLog.setType(LogType.TYPE_ROLE_ACL);
+        sysLog.setTargetId(roleId);
+        sysLog.setOldValue(before == null ? "" : JsonMapper.obj2String(before));
+        sysLog.setNewValue(after == null ? "" : JsonMapper.obj2String(after));
+        sysLog.setOperator(RequestHolder.getCurrentUser().getUsername());
+        sysLog.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
+        sysLog.setOperateTime(new Date());
+        sysLog.setStatus(1);
+        sysLogMapper.insertSelective(sysLog);
     }
 }

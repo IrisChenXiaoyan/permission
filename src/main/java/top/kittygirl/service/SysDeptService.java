@@ -24,6 +24,8 @@ public class SysDeptService {
     private SysDeptMapper sysDeptMapper;
     @Resource
     private SysUserMapper sysUserMapper;
+    @Resource
+    private SysLogService sysLogService;
 
     public void save(DeptParam param) {
         BeanValidator.check(param);
@@ -40,6 +42,7 @@ public class SysDeptService {
         dept.setOperateTime(new Date());
 
         sysDeptMapper.insertSelective(dept);
+        sysLogService.saveDeptLog(null, dept);
     }
 
     public void update(DeptParam param) {
@@ -58,6 +61,7 @@ public class SysDeptService {
         after.setOperateTime(new Date());
 
         updateWithChild(before, after);
+        sysLogService.saveDeptLog(before, after);
     }
 
     @Transactional
@@ -101,5 +105,6 @@ public class SysDeptService {
         if (sysUserMapper.countByDeptId(deptId) > 0)
             throw new ParamException("当前部门下面有用户，无法删除");
         sysDeptMapper.deleteByPrimaryKey(deptId);
+        sysLogService.saveDeptLog(dept, null);
     }
 }

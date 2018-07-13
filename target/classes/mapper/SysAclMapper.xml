@@ -41,7 +41,7 @@
       #{operator,jdbcType=VARCHAR}, #{operateTime,jdbcType=TIMESTAMP}, #{operateIp,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="top.kittygirl.model.SysAcl" >
+  <insert id="insertSelective" parameterType="top.kittygirl.model.SysAcl" keyProperty="id" useGeneratedKeys="true">
     insert into sys_acl
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -211,5 +211,11 @@
     <foreach collection="idList" item = "id" open = "(" close=")" separator=",">
       #{id}
     </foreach>
+  </select>
+
+  <select id="getByUrl" parameterType="String" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    FROM sys_acl
+    WHERE url = #{url}
   </select>
 </mapper>

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 import top.kittygirl.beans.PageQuery;
 import top.kittygirl.beans.PageResult;
 import top.kittygirl.common.JsonData;
@@ -27,6 +28,11 @@ public class SysUserController {
     private SysTreeService sysTreeService;
     @Resource
     private SysRoleService sysRoleService;
+
+    @RequestMapping("/noAuth.page")
+    public ModelAndView noAuth() {
+        return new ModelAndView("noAuth");
+    }
 
     @RequestMapping("/save.json")
     @ResponseBody

@@ -24,19 +24,22 @@ public class SysAclModuleService {
     private SysAclModuleMapper sysAclModuleMapper;
     @Resource
     private SysAclMapper sysAclMapper;
+    @Resource
+    private SysLogService sysLogService;
 
     public void save(AclModuleParam param) {
         BeanValidator.check(param);
         if (checkExist(param.getParentId(), param.getName(), param.getId())) {
             throw new ParamException("同一层级下存在相同名称的权限模块");
         }
-        SysAclModule sysAclModule = SysAclModule.builder().name(param.getName()).parentId(param.getParentId())
+        SysAclModule aclModule = SysAclModule.builder().name(param.getName()).parentId(param.getParentId())
                 .seq(param.getSeq()).status(param.getStatus()).remark(param.getRemark()).build();
-        sysAclModule.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()), param.getParentId()));
-        sysAclModule.setOperator(RequestHolder.getCurrentUser().getUsername());
-        sysAclModule.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
-        sysAclModule.setOperateTime(new Date());
-        sysAclModuleMapper.insertSelective(sysAclModule);
+        aclModule.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()), param.getParentId()));
+        aclModule.setOperator(RequestHolder.getCurrentUser().getUsername());
+        aclModule.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
+        aclModule.setOperateTime(new Date());
+        sysAclModuleMapper.insertSelective(aclModule);
+        sysLogService.saveAclModuleLog(null, aclModule);
     }
 
     public void update(AclModuleParam param) {
@@ -53,7 +56,7 @@ public class SysAclModuleService {
         after.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         after.setOperateTime(new Date());
         updateWithChild(before, after);
-
+        sysLogService.saveAclModuleLog(before, after);
     }
     @Transactional
     private void updateWithChild(SysAclModule before, SysAclModule after) {
@@ -99,5 +102,6 @@ public class SysAclModuleService {
         if (sysAclMapper.countByAclModuleId(aclModuleId) > 0)
             throw new ParamException("当前部门下面有用户，无法删除");
         sysAclModuleMapper.deleteByPrimaryKey(aclModuleId);
+        sysLogService.saveAclModuleLog(aclModule, null);
     }
 }
